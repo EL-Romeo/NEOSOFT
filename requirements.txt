@@ -1,0 +1,7 @@
+customtkinter
+pandas
+openpyxl
+fastapi
+uvicorn[standard]
+requests
+python-multipart
