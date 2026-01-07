@@ -58,8 +58,11 @@
         }
         #categories {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
+            overflow-x: auto;
             gap: 0.5rem;
+            padding-bottom: 5px;
+            -webkit-overflow-scrolling: touch;
         }
         #searchInput {
             font-size: 1rem;
